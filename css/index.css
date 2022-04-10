@@ -87,6 +87,15 @@ nav {
     font-family: 'Poppins', sans-serif;
 }
 
+nav li {
+
+    border-radius: 50px;
+    color: yellow;
+    background: #000000;
+    padding: 10px 50px;
+
+
+}
 header .download1{
 
     background-color: red;
@@ -100,4 +109,31 @@ header .download1{
     background: rgba(30, 9, 218, 0.986);
     height: 500px;
     padding: 15px;
+}
+
+
+
+@media (max-width:767px) {
+
+
+    ul{
+        display: block;
+        
+       
+    }
+
+    nav ul li{
+        text-align: center;
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    /* de 0px até 767px */
+}
+@media (min-width:768px) and (max-width: 992px) {
+    /* de 768px até 992px*/
+}
+@media (min-width:992px) {
+    /* acima de 992px */
+    /* ... */
 }

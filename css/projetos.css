@@ -1,7 +1,9 @@
 body {
     color: white;
-    background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
+   background: linear-gradient(to bottom left, rgb(7, 7, 110)  60%, black 50%);
+   background-repeat: no-repeat;
+   font-family: 'Poppins', sans-serif;
+   background-attachment: fixed;
 }
 
 ul {
@@ -30,6 +32,15 @@ nav {
     font-family: 'Poppins', sans-serif;
 }
 
+nav li {
+
+    border-radius: 50px;
+    color: yellow;
+    background: #000000;
+    padding: 10px 50px;
+
+
+}
 p{
 
     padding: 30px;
@@ -57,7 +68,47 @@ article{
    
 }
 
-.Img1{
-    
+.img1{
+
     text-align: center;
+}
+
+
+
+/* Responsividade */
+
+@media (max-width:767px) {
+    
+    article{
+
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    ul{
+        display: block;
+        
+       
+    }
+
+    nav ul li{
+        text-align: center;
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    .t-projetos{
+
+        text-align: center;
+        font-size: 40px;
+    }
+}   
+@media (min-width:768px) and (max-width: 992px) {
+    /* de 768px até 992px*/
+}
+@media (min-width:992px) {
+    /* acima de 992px */
+    /* ... */
 }

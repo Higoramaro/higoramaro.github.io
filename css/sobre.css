@@ -4,8 +4,13 @@
 }
 
 body {
-    background-color: black;
+    color: white;
+   background: linear-gradient(to bottom left, rgb(7, 7, 110)  60%, black 50%);
+   background-repeat: no-repeat;
+   font-family: 'Poppins', sans-serif;
+   background-attachment: fixed;
 }
+
 
 ul {
     display: flex;
@@ -33,7 +38,15 @@ nav {
     font-family: 'Poppins', sans-serif;
 }
 
+nav li {
 
+    border-radius: 50px;
+    color: yellow;
+    background: #000000;
+    padding: 10px 50px;
+
+
+}
 
 .center{
     position: absolute;
@@ -44,9 +57,8 @@ nav {
 }
 
 img {
-    background-color: #0da8e6;
-    box-sizing: border-box;
-    border-radius: 85% 60% 20% 50%;
+
+    position: relative;
     width: 500px;
     width:40%!important;
     display: flex;
@@ -113,4 +125,59 @@ h2{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: rgb(255, 255, 255);
+}
+
+@media (max-width:767px) {
+    
+     ul{
+        display: block;
+        
+       
+    }
+
+    nav ul li{
+        text-align: center;
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    
+    img {
+
+        display: none;  
+    }
+
+    .t-apresentacao{
+
+        display: flex;
+        text-align: center;
+        margin: 22px;
+    }
+
+    .t-nome{
+        text-align: center;
+        font-size: 323%;
+    }
+    .t-texto{
+       
+        margin: 7%;
+        font-size: 180%;
+        display: table;
+        
+    }
+
+    h2{
+      
+        display: flex;
+        text-align: center;
+        margin: 22px;
+    
+    }
+}
+@media (min-width:768px) and (max-width: 992px) {
+    /* de 768px até 992px*/
+}
+@media (min-width:992px) {
+    /* acima de 992px */
+    /* ... */
 }
