@@ -144,8 +144,8 @@ h2{
     
     img {
 
-        display: none;  
-    }
+        height: 350px;
+        width: 350px;
 
     .t-apresentacao{
 
@@ -176,6 +176,11 @@ h2{
 }
 @media (min-width:768px) and (max-width: 992px) {
     /* de 768px até 992px*/
+
+    body{
+
+        background-color: red;
+    }
 }
 @media (min-width:992px) {
     /* acima de 992px */

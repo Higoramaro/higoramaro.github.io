@@ -2,7 +2,6 @@ body {
     color: white;
    background: linear-gradient(to bottom left, rgb(7, 7, 110)  60%, black 50%);
    background-repeat: no-repeat;
-   font-family: 'Poppins', sans-serif;
    background-attachment: fixed;
 }
 
@@ -41,44 +40,52 @@ nav li {
 
 
 }
-p{
 
-    padding: 30px;
-}
-
-h1{
-
+/* Fim do menu  */
+#t-projetos{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
     text-align: center;
+    background-color: #5BBE42;
+    height: 50px;
+    margin: 50px;
+    border-radius: 50px;
 }
 
-img {
-    
-    height: 200px;
-    width: 200px;
-   }
+img{
 
+    height: 150px;
+    width: 150px;
+}
 
 article{
-    
-    
-    display: flex;
-    position: relative;
-    justify-content: space-around;
-    border: 10px rgb(13, 223, 13);
-   
-}
-
-.img1{
 
     text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#sobre-projeto1{
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+#sobre-projeto2{
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+#sobre-projeto3{
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
 
-
-/* Responsividade */
-
 @media (max-width:767px) {
-    
+
     article{
 
         display: flex;
@@ -86,6 +93,11 @@ article{
         
     }
 
+    img{
+
+        height: 350px;
+        width:  350px;
+    }
     ul{
         display: block;
         
@@ -105,6 +117,7 @@ article{
         font-size: 40px;
     }
 }   
+}
 @media (min-width:768px) and (max-width: 992px) {
     /* de 768px até 992px*/
 }
