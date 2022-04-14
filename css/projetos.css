@@ -1,156 +1,59 @@
-body {
-    color: white;
-   background: linear-gradient(to bottom left, rgb(7, 7, 110)  60%, black 50%);
-   background-repeat: no-repeat;
-   background-attachment: fixed;
+section{
+
+    text-align: center;
+    background-color: blue;
+    border-radius: 7%;
 }
 
-ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    align-items: center;
-    padding: 16px;
+#texto-sobre {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
 }
 
-a {
-    color: white;
+.habilidades {
+
     text-decoration: none;
 }
-
-nav a {
-    font-size: 20px;
-}
-
-nav a:hover {
-    color: #5BBE42;
-}
-
-nav {
-
-    font-family: 'Poppins', sans-serif;
-}
-
-nav li {
-
-    border-radius: 50px;
-    color: yellow;
-    background: #000000;
-    padding: 10px 50px;
-
-
-}
-
-/* Fim do menu  */
-#t-projetos{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 900;
-    text-align: center;
-    background-color: #5BBE42;
-    height: 50px;
-    margin: 50px;
-    border-radius: 50px;
-}
-
-img{
-
-    height: 150px;
-    width: 150px;
-}
-
-
-.card {
-    box-sizing: border-box;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    font-family: arial;
-    background: rgb(0, 153, 255);
-    height: 311px;
-  }
-  
-  
-  .card button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-  }
-  
-  .card button:hover {
-    opacity: 0.7;
-  }
 
 article{
 
     text-align: center;
+}
+
+.imagens {
+
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-radius: 50%;
 }
-
-#sobre-projeto1{
-
+h3{
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(8, 8, 8);
 }
 
-#sobre-projeto2{
+.titulo-projeto{
 
+    color: white;
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    text-align: left;
+    margin: 15px;
 }
 
-#sobre-projeto3{
+.sobre-projeto{
 
+    color: chartreuse;
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
 }
 
+.descricao-projeto{
 
-@media (max-width:767px) {
-
-    article{
-
-        display: flex;
-        flex-direction: column;
-        
-    }
-
-    img{
-
-        height: 350px;
-        width:  350px;
-    }
-    ul{
-        display: block;
-        
-       
-    }
-
-    nav ul li{
-        text-align: center;
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
-
-    .t-projetos{
-
-        text-align: center;
-        font-size: 40px;
-    }
-}   
-}
-@media (min-width:768px) and (max-width: 992px) {
-    /* de 768px até 992px*/
-}
-@media (min-width:992px) {
-    /* acima de 992px */
-    /* ... */
+    text-align: left;
+    color: rgb(87, 127, 189);
+    font-family: 'Poppins', sans-serif;
+    margin: 15px;
 }
