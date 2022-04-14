@@ -13,13 +13,13 @@ header{
 
     border-radius: 50%;
     border: 15px solid #6495ED ;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
 }
 
 h1{ 
     border: 28px red ;
-    font-size: 27px;
+    font-size: 40px;
     font-family: 'Poppins', sans-serif;
     font-weight:bold;
 }
@@ -65,4 +65,29 @@ footer img {
 
     height: 50px;
     width: 80px;
+}
+
+@media (max-width:767px) {
+
+
+    ul{
+        display: block;
+        
+       
+    }
+
+    nav ul li{
+        text-align: center;
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    /* de 0px até 767px */
+}
+@media (min-width:768px) and (max-width: 992px) {
+    /* de 768px até 992px*/
+}
+@media (min-width:992px) {
+    /* acima de 992px */
+    /* ... */
 }
