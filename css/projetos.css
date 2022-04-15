@@ -61,31 +61,13 @@ h3{
 
 @media (max-width:767px) {
 
-    ul{
-        display: block;
-        
-       
-    }
 
-    nav ul li{
-        text-align: center;
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
 
   .imagens {
 
     display: flex;
     flex-direction: column;
     
-  }
-
-  section {
-
-        display: flex;
-        flex-direction: column;
-        
   }
 
   img {
@@ -97,6 +79,14 @@ h3{
 }
 @media (min-width:768px) and (max-width: 992px) {
     /* de 768px até 992px*/
+   
+
+    .imagens{
+
+        display: flex;
+        justify-content: space-around;
+        
+    }
 }
 @media (min-width:992px) {
     /* acima de 992px */
