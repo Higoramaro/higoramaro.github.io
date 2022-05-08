@@ -1,0 +1,56 @@
+header{
+
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+section li{
+
+    text-decoration: none;
+}
+
+#texto-sobre{
+
+    font-size: 1.5em;
+}
+
+.Habilidades{
+
+    font: 1.9em sans-serif;
+    text-align: center;
+    list-style: none;
+
+   }
+
+
+@media (max-width:767px) {
+   
+   #texto-sobre{
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font: 0.90em sans-serif;
+    height: 100%;
+    margin: auto;
+   }
+   .Habilidades{
+
+    font: 1.5em sans-serif;
+    text-align: center;
+    list-style: none;
+
+   }
+
+  }
+  @media (min-width:768px) and (max-width: 992px) {
+      /* de 768px até 992px*/
+      body{
+        background-color: red;
+      }
+    
+  }
+  @media (min-width:992px) {
+      /* acima de 992px */
+      /* ... */
+  }

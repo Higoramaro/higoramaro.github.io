@@ -1,0 +1,36 @@
+
+.dark-mode {
+
+    background-color: black;
+    color: white;
+
+}
+
+  #foto-perfil{
+
+    border-radius: 50%;
+  
+    width: 250px;
+    height: 250px;
+  }
+
+  footer a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.80em;
+    color:#978989;
+  }
+
+  footer img {
+
+    height: 50px;
+    width: 80px;
+  }
+
+  
+
+  .moon{
+
+    background-color: rgb(29, 27, 27);
+  }

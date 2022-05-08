@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
+    <link rel="shortcut icon" href="imgs/icons8-home-office-96.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <!-- Importando as fontes  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/7c50116b39.js" crossorigin="anonymous"></script>
+
+    <title>Portifolio Higor Amaro</title>
+</head>
+
+<body> 
+    <nav>
+        
+    <ul>
+        
+           
+        <li>
+            <a class="moon" onclick="modo_nortuno()">
+            <img src="imgs/icons/moon.ico"
+             height="50px" width="50px"></a>
+           
+        </li>
+        <li>
+            <i class="fa-solid fa-house casa"></i>
+            <a class="home1" href="index.html">Home</a>
+            
+        </li>
+        <li>
+            <i class="fa-solid fa-book livro"></i>
+            <a class="home1" href="sobre.html">Sobre mim</a>
+        </li>
+        <li>
+            <i class="fa-solid fa-briefcase projetos"></i>
+            <a class="home1" href="projetos.html">Projetos</a>
+        </li>
+    </ul>
+    </nav>
+
+<header>
+
+    <div class="center">
+        <img id="foto-perfil" src="./imgs/foto1.jpg" alt="foto do Higor Amaro">
+        <h1>Higor Amaro I.</h1>
+        <h2>Estudante de Computação</h2>
+            <a id="botao-donwload-cv" href="./docs/curriculo.pdf" target="_blank" id="curriculo1">
+                Download CV
+                <i class="fa-solid fa-circle-arrow-down"></i>
+            </a>    
+        </header>
+    <p></p>
+    <br>
+    <footer>
+        <a href="https://www.linkedin.com/in/higor-amaro" target="_blank" rel="noopener noreferrer" >
+            <img src="./imgs/icons/linkedin.svg" title="Linkedin"></img>
+            <h3>Linkedin</h3>
+        </a>
+        <a href="https://github.com/Higoramaro" target="_blank" rel="noopener noreferrer">
+            <img src="./imgs/icons/github.svg" title="Github"></img>
+            <h3>Github</h3>
+        </a>
+        <br>    
+
+    </footer>
+    <script>
+        function modo_nortuno() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
+</body>
+</html>
