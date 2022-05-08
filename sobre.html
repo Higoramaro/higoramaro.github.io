@@ -14,12 +14,19 @@
   <!-- Importando os css  -->
   <link rel="stylesheet" href="./css/menu.css">
   <link rel="stylesheet" href="./css/sobre.css">
+  <link rel="stylesheet" href="css/dark-mode.css">
 
     <title>Sobre mim</title>
 </head>
 <body>
   <nav>
   <ul>
+      <li>
+        <a class="moon" onclick="modo_nortuno()">
+        <img src="imgs/icons/moon.ico"
+         height="50px" width="50px"></a>
+           
+      </li>
       <li>
         <i class="fa-solid fa-house"></i>
           <a href="index.html">Home</a>
@@ -60,5 +67,11 @@
       </div>
         </section>
       </header>
+      <script>
+        function modo_nortuno() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
 </body>
 </html>
