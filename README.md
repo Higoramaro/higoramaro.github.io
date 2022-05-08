@@ -8,7 +8,7 @@
 	<li>JavaScript</li>
 </ul>
 
- ### Metas
+ ### 📈 Metas 
 
 - [ ] Deixar o site responsivo
 - [x] Deixar o site em modo noturno
