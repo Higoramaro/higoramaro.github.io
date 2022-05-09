@@ -6,6 +6,8 @@
 
 }
 
+  
+
   #foto-perfil{
 
     border-radius: 50%;
@@ -33,4 +35,14 @@
   .moon{
 
     background-color: rgb(29, 27, 27);
+  }
+
+  .casa ,.livro, .projetos{
+
+    color: rgb(30, 167, 221);
+  }
+
+  nav a {
+
+    
   }

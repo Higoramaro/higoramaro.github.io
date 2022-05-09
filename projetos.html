@@ -1,44 +1,44 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imgs/pasta.png" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
+    <meta name="viewport"content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
     <link rel="stylesheet" href="./css/projetos.css">
     <script src="https://kit.fontawesome.com/7c50116b39.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="css/dark-mode.css">
     <title>Projetos</title>
 </head>
+
 <body>
     <nav>
-    <ul>
-        <li>
-            <a class="moon" onclick="modo_nortuno()">
-            <img src="imgs/icons/moon.ico"
-             height="50px" width="50px"></a>
-           
-        </li>
-        <li>
-            <i class="fa-solid fa-house"></i>
-            <a href="index.html">Home</a>
-        </li>
-        <li>
-            <i class="fa-solid fa-book"></i>
-            <a href="sobre.html">Sobre mim</a>
-        </li>
-        <li>
-            <i class="fa-solid fa-briefcase"></i>
-            <a href="projetos.html">Projetos</a>
-    
-        </li>
-    </ul>
+        <ul>
+            <li>
+                <a class="moon" onclick="modo_nortuno()">
+                    <img src="imgs/icons/moon.ico" height="50px" width="50px"></a>
+
+            </li>
+            <li>
+                <i class="fa-solid fa-house casa"></i>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-book livro"></i>
+                <a href="sobre.html">Sobre mim</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-briefcase projetos"></i>
+                <a href="projetos.html">Projetos</a>
+
+            </li>
+        </ul>
     </nav>
     <header>
-        
+
         <h3> Projetos</h3>
         <br>
     </header>
@@ -47,13 +47,7 @@
 
         <article>
             <h1>Tela de Login</h1>
-            <img src="imgs/projeto.png" alt="" height="200px" width="200px" >
-            <h4>Tecnlogias utilizadas</h4>
-            <div class="tecnologias">
-                <i class="fa-brands fa-html5"></i>
-                
-                <i class="fa-brands fa-css3-alt"></i>
-                <i class="fa-brands fa-js"></i>
+            <img src="imgs/Tela de Login.png" alt="" height="200px" width="200px">
             </div>
             <details>
                 <summary>Sobre o projeto</summary>
@@ -66,12 +60,12 @@
 
         <article>
             <h1>Tela de Cadastro</h1>
-            <img src="imgs/projeto.png" alt="" height="200px" width="200px" >
+            <img src="imgs/Tela de Cadatro.png" alt="" height="200px" width="200px">
             <details>
                 <summary>Sobre o projeto</summary>
                 <h2>Projeto para o usuario conseguir logar no site</h2>
-                
-                
+
+
                 <div class="botoes">
                     <button>Visualizar projeto</button>
                     <button>Ver o Github</button>
@@ -81,24 +75,25 @@
 
         <article>
             <h1>Tarefas Simples</h1>
-            <img src="imgs/projeto.png" alt="" height="200px" width="200px" >
+            <img src="imgs/projeto.png" alt="" height="200px" width="200px">
             <details>
                 <summary>Sobre o projeto</summary>
                 <h2>Uma lista de tarefas para voce se organizar</h2>
-                
+
                 <div class="botoes">
                     <button>Visualizar projeto</button>
                     <button>Ver o Github</button>
             </details>
         </article>
-        
+
     </main>
 
     <script>
         function modo_nortuno() {
-           var element = document.body;
-           element.classList.toggle("dark-mode");
+            var element = document.body;
+            element.classList.toggle("dark-mode");
         }
     </script>
 </body>
+
 </html>

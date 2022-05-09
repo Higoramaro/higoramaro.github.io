@@ -1,85 +1,81 @@
-header{
-
-    font-family: 'Poppins', sans-serif;
+header {
+  font-family: "Poppins", sans-serif;
 }
 
-
-h3{
-
-    text-align: center;
-    font-size: 50px;
-    font-family: 'Poppins', sans-serif;
+h3 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
 }
 
-h1{
-
-    font-family: 'Poppins', sans-serif;
-    color: rgb(36, 98, 230);
-    vertical-align: auto;
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(36, 98, 230);
+  vertical-align: auto;
 }
 
-h2{
-
-    font-size: 25px;
-    width: 250px;
-    text-align: center;
-    padding-bottom: 50px;
-    font-family: 'Poppins', sans-serif;
-    
+h2 {
+  font-size: 25px;
+  width: 250px;
+  text-align: center;
+  padding-bottom: 50px;
+  font-family: "Poppins", sans-serif;
 }
 
-.botoes{
+.botoes {
+  display: flex;
+  justify-content: space-around;
+}
 
+summary {
+  text-align: center;
+}
+
+.html {
+}
+
+.iconehtml:hover {
+  display: block;
+}
+
+.imagens {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  vertical-align: 10%;
+}
+
+article h1 {
+  text-align: center;
+}
+
+.tecnologias {
+  font-size: 30px;
+}
+
+.texto-tecn {
+  font-size: 20px;
+  width: 10px;
+}
+
+@media (max-width: 767px) {
+  article {
+    padding-bottom: 100px;
+  }
+  .imagens {
     display: flex;
-    justify-content: space-around;
-}
-summary{
+    flex-direction: column;
+  }
 
-    text-align: center;
-}
-.imagens{
-
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    text-align: center;
+  /* de 0px até 767px */
 }
 
-article h1{
-    text-align: center;
+@media (min-width: 768px) and (max-width: 992px) {
+  /* de 768px até 992px*/
 }
 
-.tecnologias{
-
-    font-size: 30px;
-    
-}
-
-.texto-tecn{
-
-    font-size: 20px;
-    width: 10px;
-}
-
-
-@media (max-width:767px) {
-
-    .imagens{
-
-        display: flex;
-        flex-direction: column;
-    }
-   
-    /* de 0px até 767px */
-}
-
-
-
-@media (min-width:768px) and (max-width: 992px) {
-    /* de 768px até 992px*/
-}
-
-@media (min-width:992px) {
-    /* acima de 992px */
-    /* ... */
+@media (min-width: 992px) {
+  /* acima de 992px */
+  /* ... */
 }

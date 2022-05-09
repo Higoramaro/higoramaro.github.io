@@ -12,6 +12,13 @@ nav a {
     font-size: 12px;
 }
 
+nav a {
+    border-radius: 20px;
+    color: rgb(30, 167, 221);
+    text-decoration: none;
+    font-size: 12px;
+
+}
 nav a:hover {
     color: #5BBE42;
 }
@@ -29,13 +36,6 @@ nav li {
     padding: 10px 25px;
 }
 
-nav a {
-    border-radius: 20px;
-    color: red;
-    text-decoration: none;
-    font-size: 12px;
-
-}
 
 nav a:hover {
     color: #5BBE42;
