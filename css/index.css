@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
 }
 
-header{
+main{
 
     text-align: center;
 }
@@ -45,6 +46,7 @@ h2{
     font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
+    font-family: 'Poppins', sans-serif;
 }
 
 footer {
@@ -85,6 +87,8 @@ footer img {
     }
     /* de 0px até 767px */
 }
+
+
 
 @media (min-width:768px) and (max-width: 992px) {
     /* de 768px até 992px*/
