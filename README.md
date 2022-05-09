@@ -11,6 +11,7 @@
  ### 📈 Metas 
 
 - [ ] Deixar o site responsivo
+	- [ ]	
 - [x] Deixar o site em modo noturno
 - [ ] Deixar o site com animações com Css e Javascript
 
