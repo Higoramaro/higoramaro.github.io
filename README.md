@@ -11,7 +11,9 @@
  ### 📈 Metas 
 
 - [ ] Deixar o site responsivo
-	- [ ]	
+	- [ ]Notebook	
+	- [ ]Celular
+	- [ ]Tablete 		
 - [x] Deixar o site em modo noturno
 - [ ] Deixar o site com animações com Css e Javascript
 
